@@ -60,7 +60,7 @@ const deleteTodo = todoId => {
   state.todos = state.todos.filter(todo => todo.id !== todoId)
 }
 
-const deleteCompleted = todoId => {
+const deleteCompleted = () => {
   state.todos = state.todos.filter(todo => todo.done)
 }
 

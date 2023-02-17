@@ -3,12 +3,12 @@
     <h1>Tareas</h1>
     <input class="new-todo" placeholder="¿Qué necesita ser hecho?" autofocus />
   </header>
-  <section style="display: none" class="main">
+  <section class="main">
     <input id="toggle-all" class="toggle-all" type="checkbox" />
     <label for="toggle-all">Mark all as complete</label>
     <ul class="todo-list"></ul>
     <footer class="footer">
-      <span class="todo-count"></span>
+      <span class="todo-count"><strong id="pending-count">0</strong> Pendiente(s)</span>
       <ul class="filters">
         <li>
           <a href="#/" class="selected">Todos</a>
