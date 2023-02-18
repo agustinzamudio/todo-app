@@ -4,20 +4,20 @@
     <input class="new-todo" placeholder="¿Qué necesita ser hecho?" autofocus />
   </header>
   <section class="main">
-    <input id="toggle-all" class="toggle-all" type="checkbox" />
-    <label for="toggle-all">Mark all as complete</label>
     <ul class="todo-list"></ul>
     <footer class="footer">
-      <span class="todo-count"><strong id="pending-count">0</strong> Pendiente(s)</span>
+      <span class="todo-count"
+        ><strong id="pending-count">0</strong> Pendiente(s)</span
+      >
       <ul class="filters">
         <li>
-          <a href="#/" class="selected">Todos</a>
+          <a href="#/" class="filter">Todos</a>
         </li>
         <li>
-          <a href="#/active">Pendientes</a>
+          <a href="#/active" class="filter">Pendientes</a>
         </li>
         <li>
-          <a href="#/completed">Completados</a>
+          <a href="#/completed" class="filter">Completados</a>
         </li>
       </ul>
       <button class="clear-completed">Borrar completados</button>
@@ -25,5 +25,5 @@
   </section>
 </section>
 <footer class="info">
-  <p>Creado por <a href="#">Agustin Zamudio</a></p>
+  <p>Creado por <strong>Agustin Zamudio</strong></p>
 </footer>
